@@ -169,12 +169,12 @@ for lp in range(100):
     print("Biden won Wisconsin!")
     BidenEV = BidenEV + 10
 
-  if TrumpEV > 270:
+  if TrumpEV >= 270:
     print("Trump won the election!")
     print ("Trump: " + str(TrumpEV) + " Biden: " + str(BidenEV))
     TrumpWins = TrumpWins + 1
     TrumpAvEV = TrumpAvEV + TrumpEV 
-  if BidenEV > 270:
+  if BidenEV >= 270:
     print("Biden won the election!")
     print ("Biden: " + str(BidenEV) + " Trump: " + str(TrumpEV))
     BidenWins = BidenWins + 1
