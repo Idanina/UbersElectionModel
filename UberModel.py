@@ -1,8 +1,7 @@
 import random
 BidenWins = 0
 TrumpWins = 0
-TrumpAvEV = 0
-BidenAvEV = 0
+
 for lp in range(100):
   TrumpEV = 163
   BidenEV = 183
